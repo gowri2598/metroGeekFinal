@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.geektrust.backend.services.MetroCardServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-07-02T11:42:46" hostname="DESKTOP-6QRVC5B" time="0.041">
+  <properties/>
+  <testcase name="testGetCards()" classname="com.geektrust.backend.services.MetroCardServiceTest" time="0.022"/>
+  <testcase name="testAddCard()" classname="com.geektrust.backend.services.MetroCardServiceTest" time="0.004"/>
+  <testcase name="testTransactCard_InsufficientBalance()" classname="com.geektrust.backend.services.MetroCardServiceTest" time="0.001"/>
+  <testcase name="testTransactCard()" classname="com.geektrust.backend.services.MetroCardServiceTest" time="0.004"/>
+  <testcase name="testTransactCard_CardNotFound()" classname="com.geektrust.backend.services.MetroCardServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

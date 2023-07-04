@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.geektrust.backend.repositories.RevenueRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-02T11:42:46" hostname="DESKTOP-6QRVC5B" time="0.009">
+  <properties/>
+  <testcase name="save_ShouldAddOrUpdateTotalCollection_WhenEntityIsSaved()" classname="com.geektrust.backend.repositories.RevenueRepositoryTest" time="0.004"/>
+  <testcase name="findAll_ShouldReturnAllTotalCollections()" classname="com.geektrust.backend.repositories.RevenueRepositoryTest" time="0.0"/>
+  <testcase name="findById_ShouldReturnOptionalEmpty_WhenEntityWithIdDoesNotExist()" classname="com.geektrust.backend.repositories.RevenueRepositoryTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

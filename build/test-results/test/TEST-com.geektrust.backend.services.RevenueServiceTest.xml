@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.geektrust.backend.services.RevenueServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-02T11:42:47" hostname="DESKTOP-6QRVC5B" time="0.009">
+  <properties/>
+  <testcase name="testPrintSummary()" classname="com.geektrust.backend.services.RevenueServiceTest" time="0.009"/>
+  <system-out><![CDATA[TOTAL_COLLECTION CENTRAL 200 20
+PASSENGER_TYPE_SUMMARY
+ADULT 10
+KID 6
+SENIOR_CITIZEN 4
+TOTAL_COLLECTION AIRPORT 100 10
+PASSENGER_TYPE_SUMMARY
+ADULT 5
+KID 3
+SENIOR_CITIZEN 2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

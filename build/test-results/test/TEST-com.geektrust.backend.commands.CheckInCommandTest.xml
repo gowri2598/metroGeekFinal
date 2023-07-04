@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.geektrust.backend.commands.CheckInCommandTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-02T11:42:46" hostname="DESKTOP-6QRVC5B" time="0.024">
+  <properties/>
+  <testcase name="execute_ShouldCheckInPassenger_WhenValidTokensProvided()" classname="com.geektrust.backend.commands.CheckInCommandTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

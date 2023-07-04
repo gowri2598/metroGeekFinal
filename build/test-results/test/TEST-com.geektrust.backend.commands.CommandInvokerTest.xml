@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.geektrust.backend.commands.CommandInvokerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-02T11:42:46" hostname="DESKTOP-6QRVC5B" time="0.017">
+  <properties/>
+  <testcase name="register_ShouldRegisterCommand_WhenValidCommandNameAndCommandProvided()" classname="com.geektrust.backend.commands.CommandInvokerTest" time="0.014"/>
+  <testcase name="executeCommand_ShouldThrowNoSuchCommandException_WhenCommandNameNotRegistered()" classname="com.geektrust.backend.commands.CommandInvokerTest" time="0.002"/>
+  <testcase name="executeCommand_ShouldExecuteRegisteredCommand_WhenValidCommandNameAndTokensProvided()" classname="com.geektrust.backend.commands.CommandInvokerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
