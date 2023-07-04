@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public class App {
   //chmod + x ./gradlew
   //./gradlew run --args="INPUT_FILE=input.txt"
-
+/* 
   public static void main(String[] args) {
     List<String> commandLineArgs = new LinkedList<>(Arrays.asList(args));
     String expectedSequence = "INPUT_FILE";
@@ -47,5 +47,28 @@ public class App {
     } catch (IOException | NoSuchCommandException e) {
       e.printStackTrace();
     }
-  }
+  }*/
+  public static void main(String[] args) {
+		List<String> commandLineArgs = new LinkedList<>(Arrays.asList(args));
+        run(commandLineArgs);
+	}
+	public static void run(List<String> commandLineArgs) {
+        ApplicationConfig applicationConfig = new ApplicationConfig();
+        CommandInvoker commandInvoker = applicationConfig.getCommandInvoker();
+        BufferedReader reader;
+        String inputFile = commandLineArgs.get(0);
+        try {
+            reader = new BufferedReader(new FileReader(inputFile));
+            String line = reader.readLine();
+            while (line != null) {
+                List<String> tokens = Arrays.asList(line.split(" "));
+                commandInvoker.executeCommand(tokens.get(0),tokens);
+                // read next line
+                line = reader.readLine();
+            }
+            reader.close();
+        } catch (IOException | NoSuchCommandException e) {
+            e.printStackTrace();
+        }
+   }
 }
